@@ -1,0 +1,73 @@
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    font-size: 1.6rem;
+}
+
+.contenedor-superior{
+    display: flex;
+    justify-content: flex-end;
+}
+.links-superiores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.links-superiores a{
+    align-items: center;
+    padding: 5px;
+}
+
+.links-superiores .foto{
+    border-radius: 100%;
+    width: 40px;
+}
+main{
+    margin-top: 200px;
+}
+main .contenedor-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    
+}
+.buscadores{
+    display: flex;
+    justify-content: center;
+}
+.buscadores input{
+    margin-left:15px;
+}
+.ofrecido{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid rgb(177, 177, 177);
+    height: 75px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    justify-content: space-between;
+    background-color: gainsboro;
+}
+
+
+
